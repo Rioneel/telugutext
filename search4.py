@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import openpyxl
 
 # Replace 'YOUR_API_KEY' with your actual YouTube API key
-api_key = "AIzaSyBsU4fxoQSum6YJcSQsu7Wvo7CfIhm4_wE"
+api_key = "YOUR_API_KEY"
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Function to search for Telugu videos with Creative Commons license
